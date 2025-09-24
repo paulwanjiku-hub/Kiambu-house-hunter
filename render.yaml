@@ -12,3 +12,4 @@ services:
       name: bot-data
       mountPath: /var/data
       sizeGB: 1
+startCommand: "python bot_runner.py"
